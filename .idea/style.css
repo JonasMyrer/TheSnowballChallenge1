@@ -1,0 +1,71 @@
+body {
+    font-family: Tahoma, Arial;
+    font-size: 20px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: left;
+    font-size: 24px;
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.teacher {
+    margin: 10px;
+    border-radius: 8px;
+}
+
+img{
+    border-radius: 20px;
+    max-height: 40%;
+    width: auto;
+    display: block;
+
+
+}
+
+.about {
+    padding: 50px;
+    text-align: center;
+    background-color: #208fda;
+    color: white;
+}
+
+.name {
+    text-align: left;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: #208fda;
+}
+
+@media screen and (max-width: 1200px) {
+    .box {
+        height: auto;
+        width: 100%;
+        display: block;
+}
+}
